@@ -84,13 +84,19 @@ ul {
 }
 .about{
     /* max-height: 20vh; */
-    margin-top: 3vh;
+    margin-top: 3vh;    
+}
+#about-me{
+    font-size: 150%;
+    text-align: justify;
+    padding: 2%;  
+    
 }
 /* Work section */
 .work{
     /* max-height: 20vh; */
     margin-top: 3vh;
-    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 .big{
     width: 100%;
@@ -104,7 +110,7 @@ ul {
     right: 0;
     left: 0; */
     padding-left: calc(var(--bs-gutter-x) * .5);
-    padding-right: 3%;
+    padding-right:1%;
     margin-bottom: 3vh;
     /* max-height: 20vh; */
 }
@@ -112,15 +118,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+    padding: 1%;
 }
-
-
-
-
-
-
-
-
 
 header {
     display: flex;
