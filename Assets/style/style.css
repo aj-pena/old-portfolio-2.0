@@ -11,8 +11,99 @@
 #background{
     background-color:rgb(212, 243, 233);
     margin:0 0.2%;
+    height: 100vh;
     
 }
+/* header styling */
+.header{
+    padding-right: 3%;
+    
+}
+#myName{
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+.headerBtns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+    min-width: 10vw;
+    margin-right: 1vw;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  
+  li a:hover {
+    background-color: #cecbcb;
+  }
+  
+.ribbon{
+  background: url(https://images.unsplash.com/photo-1605106325682-3482f7c1c9c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=663&q=80);
+  background-repeat: repeat;
+  background-size: contain;
+  /* max-height: 25vh; */
+
+}
+.section-title {
+   display: flex;
+   justify-content: center; 
+   border-right: solid black 3px;
+  
+}
+.about{
+    /* max-height: 20vh; */
+    margin-top: 3vh;
+}
+.work{
+    /* max-height: 20vh; */
+    margin-top: 3vh;
+    margin-top: 3vh;
+}
+.contact{
+    min-height: 10vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: 3%;
+    margin-bottom: 3vh;
+    /* max-height: 20vh; */
+}
+.contact-methods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+
 
 header {
     display: flex;
@@ -33,15 +124,28 @@ h1 {
     font-size: 32pt;
     flex: 1 1 auto;
 }
+/* Format ribbon */
+.ribbon{
+    display: flex;
+    justify-content: space-between;
+}
 /* Format my photograph */
 .me{
+    align-self: flex-start;
     margin: 0;
-    max-width: 400px;
-    max-height: 400px;
-    border: solid black 1px;
-    border-radius: 45px;
-    opacity: 95%;
+    max-width: 200px;
+    max-height: 200px;
+    /* border: solid black 1px; */
+    /* border-radius: 45px; */
+    opacity: 90%;
     flex: 0 1 400px;
+}
+#subtitle{
+    display: inline-block;
+    background-color: rgba(22, 23, 25, 0.9);
+    color: orange;
+    align-self: flex-end;
+    
 }
 
 /* Format my name specifically */
@@ -56,149 +160,3 @@ h1 {
     order: 3;
 }
 
-/* navigation bar */
-nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(97, 168, 143);
-    padding: 1% 1% 1% 3%;
-    margin-top: 0;
-    font-family: 'Lora', serif;
-    font-size: 24pt;
-    font-weight: bolder;
-    color: white;
-}
-/* navigation links */
-.navigator{
-    flex: 0 .5 auto;
-}
-
-/* layout for aside and main through class content */
-.content{
-display: flex;
-
-}
-
-/* About me section */
-aside {
-    background: rgb(181, 235, 218);
-    order: 1;
-    width: 33%;
-}
-
-
-/* Work samples */
-main {
-    order: 2;
-    width: 67%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-/* This will make app 1 larger than others */
-#one{
-    order: 1;
-     width: 50%;
-    flex: 1 1 300px;
-}
-
-/* card */
-.card{
-    order: 2;
-    flex: 0 2 200px;
-    width: 25%;
-}
-
-#mineral{
-    transform: rotate(90deg);
-    margin: 0;
-}
-
-/* Links to email and other pages */
-footer{
-    background: rgb(188, 200, 240);
-    border-top: solid rgb(12, 20, 44) 4px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-footer div{
-    
-    margin: 2%;
-    padding: 1%;
-}
-
-/* Media query for tablets */
-@media screen and (max-width:768px) {
-   header{
-       
-   }
-   
-    h1 {
-       
-    }
-    /* Format my photograph */
-    .me{
-       
-             
-    }
-    
-    /* Format my name specifically */
-    #myName {
-       
-    }
-    nav{
-       
-    }
-    .navigator{
-    
-    }
-    
-    /* layout for aside and main through class content */
-    .content{
-    
-    }
-    
-    /* About me section */
-    aside {
-       
-    }
-    /* Work samples */
-    main {
-       
-    }
-    
-    /* This will make app 1 larger than others */
-    #one{
-       
-    }
-    
-    /* card */
-    .card{
-       
-    }
-    
-    #mineral{
-       
-    }
-    
-    /* Links to email and other pages */
-    footer{}
-}
-
-/* Media query for mobile */
-@media screen and(max-width:768px) {
-    header {
-        display: flex;
-        flex-direction: column;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
