@@ -24,6 +24,15 @@
     padding-left: 2vw;
     padding-top: 2vh;
 }
+h1 a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    font-weight: bold; 
+}
+h1 a:hover{
+    background-color: #cecbcb;
+}
 .headerBtns{
     display: flex;
     flex-wrap: wrap;
