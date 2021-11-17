@@ -18,33 +18,26 @@ I hope you enjoy it!
 
 To tell you a bit about myself, I have 8 years of local and international experience in transportation planning and engineering, including research and policy formulation. I have taken formal training in ArcMap, Vissim, AutoCAD, Revit and Photoshop. In previous positions, I performed with MS Office, ArcMap, Vissim, Synchro, and Stata. Lately, I have decided to have a transition in my career that allows me to have a better lifestyle. I enjoy the little pleasures in life, having a flexible schedule, working from home and a nice ergonomic chair with a sitting standing desk... and I also enjoy drawing.
 
-Some of my current learnings for this project are:
-
-    I will need to try other ways to make the flex items and the media queries to work. So far the things I have tried have not yielded the results I expected. I believe I have to review the flex items behaviors.
-    Also, I still have to include pseudo classes and pseudo elements. 
-
-Will continue to work in this during the weekend so as to not lag behind.
-
-
 ## Installation
 
-No installation is needed. This application is run in a live webpage.
+No installation is needed. This application is run in a live webpage. Follow the link provided in the followint #usage section.
+
 
 ## Usage
 
-To use this application, go to the deployed webpage by followig this link: [Visit the deployed page](https://aj-pena.github.io/Andres-Pena-Portfolio/)
+To use this application, go to the deployed webpage by followig this link: [Visit the deployed page](https://aj-pena.github.io/Portfolio-2.0/)
 
-![Image of the Landing Page]( "Landing Page")
+![Image of the Landing Page]( /Assets/images/screenshot.PNG "Landing Page")
 
-Once in the landing page, go to the ________ and click on the ____________________ to ________________.
+Once in the landing page, go to each section by scrolling down or clicking in the corresponding menu button on the upper right corner of the page. If you go to the 'Work' section, you will find project cards like so:
 
-![Image of a project card]()
+![Image of a project card](/Assets/images/projetCard.PNG)
 
-You will also find links to the GitHub repository for each of the displayed projects, in case you want to learn more about it.
+Inside the project cards you will also find links to the corresponding GitHub repository and deployed page (if applicable), in case you want to learn more about it.
 
-Once in the project/app page, feel free to inspect and explore it!
-![Image of a project webpage]()
+You will also find a 'Contact Me' section at the bottom of the page where you will be able to call me, write me and email, reach out through linkedIn or connect via GitHub! 
 
+Finally, if you are interested in knowing more about my work experience, feel free to click on my name at the upper left corner of the page.
 
 ## Credits
 
@@ -64,7 +57,7 @@ Reference material:
 
 ## GitHub
 
-If you want to know more details, feel free to [visit the repo](https://github.com/aj-pena/Andres-Pena-Portfolio.git)
+If you want to know more details, feel free to [visit the repo](https://github.com/aj-pena/Portfolio-2.0.git)
 
 
 ## Features
